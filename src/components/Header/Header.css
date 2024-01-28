@@ -24,9 +24,14 @@
   display: none;
 }
 
+.header-btn a {
+  color: #000000 !important;
+}
+
 div .header-btn {
   background: #fbc344 !important;
   border-radius: 9px;
+  color: #000000 !important;
 }
 
 @media (max-width: 768px) {
@@ -51,6 +56,7 @@ div .header-btn {
   }
   #about-desktop {
     display: none;
+    color: #000000;
   }
   div .header-btn {
     display: none;

@@ -39,7 +39,14 @@ const Header = () => {
         <div>
           {" "}
           <button id="about-desktop " className="button header-btn">
-            <Link to="/about-us">ABOUT US</Link>
+            <Link
+              to="/about-us"
+              style={{
+                color: "#000",
+              }}
+            >
+              ABOUT US
+            </Link>
           </button>
         </div>
         {/* for medium and small screens */}
